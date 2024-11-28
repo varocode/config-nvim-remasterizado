@@ -19,7 +19,7 @@ return {
     workspaces = {
       {
         name = "GentlemanNotes", -- Name of the workspace
-        path = "/home/varodev/obsidian-notes/", -- Path to the notes directory
+        path = "/home/varocode//obsidian-notes/", -- Path to the notes directory
       },
     },
 
