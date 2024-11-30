@@ -67,6 +67,9 @@ vim.api.nvim_set_keymap("x", "K", "<Nop>", { noremap = true, silent = true })
 -- Redefine Ctrl+s to save with the custom function
 vim.api.nvim_set_keymap("n", "<C-s>", ":lua SaveFile()<CR>", { noremap = true, silent = true })
 
+-- Ejecuta el archivo actual con Node.js
+vim.api.nvim_set_keymap("n", "@", ":! node %<CR>", { noremap = true })
+
 -- Custom save function
 function SaveFile()
   -- Check if a buffer with a file is open
